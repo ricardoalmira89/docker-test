@@ -1,7 +1,7 @@
 const http = require('http');
 var moment = require('moment');
 
-const host = '0.0.0.0';
+const host = '127.0.0.1';
 const port = 3000;
  
 const server = http.createServer((req, res) => {
